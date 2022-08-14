@@ -1,7 +1,7 @@
 # Pancancer survival prediction using a deep learning architecture with multimodal representation and integration
 
 
-## Data prepare
+## Data
 Please download the data from our [Google Drive](https://drive.google.com/file/d/1siaUPxmZQ3v2VBRCNCnFZxRBB3Wh-j4f/view?usp=sharing). Make sure the unzipped data folder is in the 'MultimodalSurvivalPrediction' directory before you start running experiments.
 
 ## Experiments
