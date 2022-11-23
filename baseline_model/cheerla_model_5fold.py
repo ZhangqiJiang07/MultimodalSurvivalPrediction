@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/mnt/cheerla_model')
+sys.path.append('/mnt/baseline_model/cheerla_model')
 
 import numpy as np
 import pandas as pd
