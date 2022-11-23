@@ -5,6 +5,10 @@
 *Please download the data from [Genomic Data Commons (GDC)](https://gdc.cancer.gov/about-data/publications/pancanatlas) and [University of California Santa Cruz (UCSC) Xena](http://xena.ucsc.edu/public/).* Make sure the original multimodal data is in the 'MultimodalSurvivalPrediction/preprocess/data' directory before you start running preprocessings and experiments.
 
 ## Experiments
+#### Install packages
+```
+pip install -r requirements.txt
+```
 If you’d like to run experiment with specified modality combination (e.g. only clinical and miRNA) use the `Clinical_xx_main.py` files.
 
 To run the experiment of your choice, simply type:
