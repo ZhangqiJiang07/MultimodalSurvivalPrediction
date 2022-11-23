@@ -2,7 +2,7 @@
 
 
 ## Data
-*Please download the data from our [Google Drive](https://drive.google.com/file/d/1siaUPxmZQ3v2VBRCNCnFZxRBB3Wh-j4f/view?usp=sharing).* Make sure the unzipped data folder is in the 'MultimodalSurvivalPrediction' directory before you start running experiments.
+*Please download the data from [Genomic Data Commons (GDC)](https://gdc.cancer.gov/about-data/publications/pancanatlas).* Make sure the original multimodal data is in the 'MultimodalSurvivalPrediction/preprocess/data' directory before you start running preprocessings and experiments.
 
 ## Experiments
 If you’d like to run experiment with specified modality combination (e.g. only clinical and miRNA) use the `Clinical_xx_main.py` files.
