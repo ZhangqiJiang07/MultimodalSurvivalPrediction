@@ -2,7 +2,10 @@
 
 
 ## Data
-Please download the data from [Genomic Data Commons (GDC)](https://gdc.cancer.gov/about-data/publications/pancanatlas) and [University of California Santa Cruz (UCSC) Xena](http://xena.ucsc.edu/public/). Make sure the original multimodal data is in the 'MultimodalSurvivalPrediction/preprocess/data' directory before you start running preprocessings and experiments.
+Please download the data from [Genomic Data Commons (GDC)](https://gdc.cancer.gov/about-data/publications/pancanatlas) and [University of California Santa Cruz (UCSC) Xena](http://xena.ucsc.edu/public/). Make sure the original multimodal datasets are in the 'MultimodalSurvivalPrediction/preprocess/data' directory before you start running preprocessings and experiments.
+
+Or you can download the preprocessed data from our [Google Drive](https://drive.google.com/file/d/1Cu1hVO_kPQGpeGHxgYHzLVDH7ulqF8tN/view?usp=share_link) and make sure the unzipped multimodal datasets are in the 'MultimodalSurvivalPrediction/preprocess/preprocessed_data' directory.
+
 
 ## Install packages
 ```
