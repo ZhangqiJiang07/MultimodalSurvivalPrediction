@@ -8,10 +8,10 @@ from sklearn.decomposition import PCA
 from lifelines.utils import concordance_index
 from sksurv.ensemble import RandomSurvivalForest
 
-CLIN_PATH = 'Pc_clinical_emb.csv'
-MIRNA_PATH = 'PC_miRNA_100.csv'
-MRNA_PATH = 'PC_mRNA_100.csv'
-CNV_PATH = 'PC_CNV_100.csv'
+CLIN_PATH = '/mnt/preprocess/preprocessed_data/Pc_clinical_emb.csv'
+MIRNA_PATH = '/mnt/preprocess/preprocessed_data/PC_miRNA_100.csv'
+MRNA_PATH = '/mnt/preprocess/preprocessed_data/PC_mRNA_100.csv'
+CNV_PATH = '/mnt/preprocess/preprocessed_data/PC_CNV_100.csv'
 SEED = 24
 K = 5
 
