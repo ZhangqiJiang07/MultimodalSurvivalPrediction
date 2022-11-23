@@ -10,10 +10,10 @@ from torch.utils.data import DataLoader
 
 
 # The dictionary of the input data path
-DATA_PATH = {'clinical': 'Pc_clinical_emb.csv',
-			'mRNA': 'PC_mRNA_threshold_7.csv',
-			'miRNA': 'PC_miRNA.csv',
-			'CNV': 'PC_CNV_threshold_20.csv'}
+DATA_PATH = {'clinical': '/mnt/preprocess/preprocessed_data/Pc_clinical_emb.csv',
+			'mRNA': '/mnt/preprocess/preprocessed_data/PC_mRNA_threshold_7.csv',
+			'miRNA': '/mnt/preprocess/preprocessed_data/PC_miRNA.csv',
+			'CNV': '/mnt/preprocess/preprocessed_data/PC_CNV_threshold_20.csv'}
 
 
 def setup_seed(seed):
