@@ -28,10 +28,7 @@ K = 5
 
 data_path = utils.DATA_PATH
 
-modalities_list = [['clinical'], ['mRNA'], ['miRNA'], ['CNV'],
-['clinical', 'CNV'], ['clinical', 'miRNA'], ['clinical', 'mRNA'], ['clinical', 'mRNA', 'CNV'],
-['clinical', 'miRNA', 'CNV'], ['clinical', 'miRNA', 'mRNA'],
-['clinical', 'miRNA', 'mRNA', 'CNV']]
+modalities_list = [['clinical', 'miRNA', 'mRNA']]
 
 # setup random seed
 utils.setup_seed(24)
