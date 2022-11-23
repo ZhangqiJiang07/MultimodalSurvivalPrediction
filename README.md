@@ -10,8 +10,7 @@ pip install -r requirements.txt
 ```
 
 ## Experiments
-
-###I.
+I.
 If you’d like to run experiment with specified modality combination (e.g. clinical, miRNA, and mRNA) for pancancer survival prediction, you need to modify the 'modalities_list' variable in 'pancancer_prediction.py'.
 ```
 modalities_list = [['clinical', 'mRNA', 'miRNA']]
@@ -22,7 +21,7 @@ To run the experiment of your choice, simply type:
 >> python3 pancancer_prediction.py
 ```
 
-###II.
+II.
 If you’d like to run experiment with specified modality combination (e.g. clinical, miRNA, and mRNA) with pancancer training dataset for single cancer survival prediction, you need to modify the 'modalities_list' variable in 'single_cancer_prediction.py'.
 
 To run the experiment of your choice, simply type:
