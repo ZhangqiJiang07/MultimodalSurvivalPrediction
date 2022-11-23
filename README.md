@@ -29,7 +29,7 @@ If you’d like to run experiment with specified modality combination (e.g. clin
 ```
 modalities_list = [['clinical', 'mRNA', 'miRNA']]
 ```
-To run the experiment of your choice, simply type:
+And then type:
 ```
 >> cd <Path_to_MultimodalSurvivalPrediction_folder>
 >> python3 single_cancer_prediction.py
