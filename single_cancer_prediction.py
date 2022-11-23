@@ -31,7 +31,7 @@ SEED = 24
 data_path = utils.DATA_PATH
 
 # selected modalities
-modalities_list = [['clinical'], ['clinical', 'mRNA'], ['clinical', 'mRNA', 'CNV']]
+modalities_list = [['clinical', 'miRNA', 'mRNA']]
 
 # selected cancer types
 tested_cancer_type = ['BLCA', 'BRCA', 'CESC', 'COADREAD', 'HNSC', 'KICH', 'KIRC', 'KIRP', 'LAML', 'LGG',
