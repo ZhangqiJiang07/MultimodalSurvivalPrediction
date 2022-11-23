@@ -1,7 +1,7 @@
 
 """5 fold cross validation for Multisurv"""
 import sys
-sys.path.append('/mnt/multisurv')
+sys.path.append('/mnt/baseline_model/multisurv')
 
 import os
 import torch
