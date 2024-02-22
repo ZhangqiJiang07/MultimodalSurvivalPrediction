@@ -34,3 +34,18 @@ And then type:
 >> cd <Path_to_MultimodalSurvivalPrediction_folder>
 >> python3 single_cancer_prediction.py
 ```
+
+## Reference
+If you find our work useful in your research, please consider citing:
+```
+@article{fan2023pancancer,
+    author = {Fan, Ziling and Jiang, Zhangqi and Liang, Hengyu and Han, Chao},
+    title = {Pancancer survival prediction using a deep learning architecture with multimodal representation and integration},
+    journal = {Bioinformatics Advances},
+    volume = {3},
+    number = {1},
+    pages = {1-9},
+    year = {2023},
+    doi = {10.1093/bioadv/vbad006}
+}
+```
